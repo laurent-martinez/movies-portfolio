@@ -34,7 +34,7 @@ function Navbar() {
             </Link>
           </ul>
         </nav>
-        <h2 className="p-10 bg-[#F6765E] rounded shadow-lg drop-shadow-xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-6xl z-600">Adaptatrice de Doublage</h2>
+        <h2 className="p-10 bg-[#F6765E] rounded shadow-lg drop-shadow-xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white  text-2xl md:text-6xl z-600">Adaptatrice de Doublage</h2>
       </div>
     </>
   );
