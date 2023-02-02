@@ -1,11 +1,8 @@
 /* eslint-disable react/no-array-index-key */
 /* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
-import Image from 'next/image';
 import useFetch from './fetchData';
 import TvCards from './TvCards';
-import yoga from '../../public/yoga2loader.svg';
-import line from '../../public/line.svg';
 
 interface Tvlist {
   listId: string;
