@@ -4,7 +4,7 @@ import React from 'react';
 
 function Anime() {
   return (
-    <div className="bg-[#F8E6BD] ">
+    <div className="bg-[#F8E6BD]">
       <Navbar />
       <TvList listId="8238532" />
     </div>
