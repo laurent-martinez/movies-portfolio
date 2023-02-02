@@ -25,10 +25,12 @@ export default function TvList({ listId } : Tvlist) {
   }
 
   if (!data || loading) {
-    <div className="h-screen w-screen flex flex-col justify-center items-center">
-      <Image src={yoga} alt="loader" width={500} height={500} className="animate-bounce" />
-      <Image src={line} alt="loader" width={800} height={10} className="" />
-    </div>;
+    return (
+      <div className="h-screen w-screen flex flex-col justify-center items-center">
+        <Image src={yoga} alt="loader" width={500} height={500} className="animate-bounce" />
+        <Image src={line} alt="loader" width={800} height={10} className="" />
+      </div>
+    );
   }
 
   return (
