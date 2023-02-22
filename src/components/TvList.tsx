@@ -37,7 +37,16 @@ export default function TvList({ listId }: TvListProps) {
   // Render the fetched data using the TvCards component
   return (
     <div className="flex flex-wrap p-1 sm:p-5">
-      {data.map((tv) => <TvCards key={tv.id} {...tv} />) }
+      {data.map((tv) => (
+        <TvCards
+          key={tv.id}
+          poster_path={tv.poster_path}
+          first_air_date={tv.first_air_date}
+          title={tv.title}
+          release_date={tv.release_date}
+          name={tv.name}
+        />
+      )) }
     </div>
   );
 }

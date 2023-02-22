@@ -2,6 +2,10 @@ import { useState, useEffect } from 'react';
 
 // Define the interface for a movie item
 type MovieItem = {
+  title: string;
+  release_date: string;
+  first_air_date: string;
+  poster_path: string;
   id: number;
   name: string;
   // Add other properties here as needed
@@ -27,7 +31,7 @@ const useFetch = (listId: string): HookReturn => {
   // State to indicate if data is being loaded
   const [loading, setLoading] = useState<boolean>(true);
   // State to hold any error that may occur during data fetch
-  const [error, setError] = useState<string>(''); 
+  const [error, setError] = useState<string>('');
 
   // Use the useEffect hook to fetch data when the component mounts
   // or when the listId parameter changes
@@ -42,9 +46,9 @@ const useFetch = (listId: string): HookReturn => {
         setData(json.items);
         // Update the state to indicate that loading is complete
         setLoading(false);
-      } catch (err) {
+      } catch (err : unknown) {
         // Update the state with any error that occurred
-        setError(err.message);
+        setError(err as string);
         // Update the state to indicate that loading is complete
         setLoading(false);
       }
