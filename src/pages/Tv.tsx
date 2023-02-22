@@ -1,5 +1,5 @@
 import Navbar from '@/components/Navbar';
-import TvList from '@/datas/TvList';
+import TvList from '@/components/TvList';
 import React from 'react';
 
 function Tv() {

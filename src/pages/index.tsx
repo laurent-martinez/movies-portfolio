@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import TvList from '@/datas/TvList';
+import TvList from '@/components/TvList';
 import Navbar from '@/components/Navbar';
 
 export default function Home() {
