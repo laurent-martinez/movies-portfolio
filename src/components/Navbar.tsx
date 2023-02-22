@@ -17,7 +17,7 @@ function Navbar() {
         `}
         </style>
       </Head>
-      <div className="relative hero bg-cover bg-center object-cover" style={{ backgroundImage: 'url(\'/workingMaterial.png\')' }}>
+      <div className="relative hero bg-cover bg-center object-cover" style={{ backgroundImage: 'url(\'/workingMaterial.webp\')' }}>
         <nav className="bg-transparent fixed w-full top-0 z-10  p-5 sm:p-2 flex flex-col sm:flex-row justify-between items-center sticky top-0 z-50 sm:h-[80px] h-[150px]">
           <Link href="/Tv">
             <h1 className="text-white text-2xl sm:text-4xl font-bold p-2 hover:text-[#fac267]">Margaux Didier 🇬🇧🇫🇷</h1>
