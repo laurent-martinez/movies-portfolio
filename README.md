@@ -1,11 +1,13 @@
-Deployment
-To deploy the app, run npm run dev.
+## Deployment
 
-Technologies Used
-Next.js (with TypeScript)
-The Movie Database API for fetching data
-Sanity (coming soon) for managing more data and creating content
-Tailwind CSS for styling
-React Icons and Emojis for adding icons and emojis
-Framer Motion for animations
-Eslint-config-airbnb for code formatting
+To deploy the app, run the command:
+
+'npm run dev'
+## About the App
+
+This is a Next.js app built with TypeScript,
+that utilizes the Movie Database API to fetch data.
+The app also uses Tailwind CSS for styling,
+React icons and emojis for additional visual elements,
+and Framer Motion for animations. Additionally,
+the code is formatted using the `eslint-config-airbnb` package.
