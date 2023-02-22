@@ -27,7 +27,7 @@ function TvCards({
       whileTap={{ scale: 0.95 }}
       transition={{ duration: 0.2 }}
       // Styling for the card and responsive layout for different screen sizes
-      className="cursor-pointer relative group max-w-2xl my-4 mx-auto sm:px-4 py-8 lg-max-7xl grid-cols-1 gap-y-10 sm:grid-cols-2 sm:gap-x-2 lg:grid-cols-3 xl:grid-cols-4 sm:w-[370px]"
+      className="cursor-pointer relative group max-w-2xl my-4 mx-auto sm:px-4 py-8 lg-max-7xl grid-cols-1 gap-y-6 sm:gap-y-10 sm:grid-cols-2 sm:gap-x-2 lg:grid-cols-3 xl:grid-cols-4 sm:w-[370px]"
     >
       {/* Framer Motion animation for image fade in */}
       <motion.div
